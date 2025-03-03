@@ -152,6 +152,9 @@ layoutClass: gap-16
 transition: fade-out
 ---
 # 工作經歷 (2/3)
+
+<br/>
+
 ## 專案類型
 - 典藏系統
 - Open Data
@@ -161,6 +164,8 @@ transition: fade-out
 
 ---
 transition: fade-out
+layout: two-cols
+layoutClass: gap-16
 ---
 # 工作經歷 (3/3)
 
@@ -174,6 +179,10 @@ transition: fade-out
 - 帶領 3 位前端，協助開發困難，並且給予指導
 - 導入新手包概念，讓後續新進人員可以更快進入狀況
 - 正在導入 Monorepo 架構，並且重構 i18n 多國語系
+
+::right::
+<br/><br/><br/><br/><br/>
+
 - 建立前端規範
   - git commit 規範
   - branch 命名規範
