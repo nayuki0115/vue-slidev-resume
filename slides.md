@@ -60,40 +60,52 @@ transition: fade-out
 ---
 
 # Frontend Tech Stack  前端技能
-
+## Frontend Frameworks
 <section>
   <p>
     <span class="tags">
-      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg" alt="javascript"></a>
+      <img src="https://www.vectorlogo.zone/logos/vuejs/vuejs-ar21.svg" alt="vue" />
     </span>
     <span class="tags">
-      <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg" alt="typescript"></a>
-    </span>
-  </p>
-  <p>
-    <span class="tags">
-      <a href="https://vuejs.org/" target="_blank"><img src="https://www.vectorlogo.zone/logos/vuejs/vuejs-ar21.svg" alt="vue"></a>
+      <img src="https://www.vectorlogo.zone/logos/nuxtjs/nuxtjs-ar21.svg" alt="nuxt" />
     </span>
     <span class="tags">
-      <a href="https://nuxt.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/nuxtjs/nuxtjs-ar21.svg" alt="Nuxt"></a>
-    </span>
-  </p>
-  <p>
-    <span class="tags">
-      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="html"></a> 
-    </span>
-    <span class="tags">
-      <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics" target="_blank"><img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg" alt="css"></a>
-    </span>
-    <span class="tags">
-      <a href="https://jquery.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/jquery/jquery-ar21.svg" alt="jquery"></a>
+      <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt="react" />
     </span>
   </p>
 </section>
 
-<br/><br/><br/>
+## Languages
+<section>
+  <p>
+    <span class="tags">
+      <img src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg" alt="js" />
+    </span>
+    <span class="tags">
+      <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg" alt="ts" />
+    </span>
+    <span class="tags">
+      <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="html" />
+    </span>
+    <span class="tags">
+      <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg" alt="css" />
+    </span>
+  </p>
+</section>
 
-### 前端經歷為 7 年
+## Tools & Others
+<section>
+  <p>
+    <span class="tags">
+      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" alt="git" />
+    </span>
+    <span class="tags">
+      <img src="https://www.vectorlogo.zone/logos/eslint/eslint-ar21.svg" alt="eslint" />
+    </span>
+  </p>
+</section>
+
+
 
 <style>
   section {
@@ -125,15 +137,16 @@ layoutClass: gap-16
 
 ### 前端工程師 `2017-2019`
 - `jQuery`、`Blade`
-- 將分配到的案子，於期限內完成
+- 負責與設計、後端協作，完成前端互動功能與資料呈現
+- 參與文化典藏與政府開放資料平台的開發任務
 
 <br/>
 
 ### 高級前端工程師 `2019-2022`
 - `Vue2` / `Nuxt2` / `TypeScript`
-- 將分配到的案子，於期限內完成
-- 參與公司後台模組化
-- 專案 RDL (RD Leader)
+- 完成多項專案開發任務，擔任 RD Leader 進行任務拆解與實作
+- 參與公司後台模組化與前端架構優化
+- 技術轉型：主導從 jQuery 過渡至 Vue 2 開發流程
 
 ::right::
 
@@ -141,12 +154,11 @@ layoutClass: gap-16
 
 ### 主任 `2022-2024`
 - `Vue2` / `Vue3` / `Nuxt2`/ `Nuxt3`/ `TypeScript`
-- 擔任研發部前端組組長，帶領 4 位前端
-- 將分配到的案子，於期限內完成
-- 分配專案前端人力，並且做為 PM 和 RD 之間的橋樑
-- 導入前端新人教育訓練
-- 公司後台模組化之優化
-- 擔任某年前端讀書會組長，訂當年讀書會事宜 
+- 擔任研發部前端組組長，帶領 4 位前端工程師
+- 分配專案與人力，作為 PM 與 RD 的溝通橋樑
+- 建立新人訓練制度、推動內部讀書會與知識分享
+- 優化公司後台模組架構與維運流程
+- 確保各項專案依期穩定交付
 
 ---
 transition: fade-out
