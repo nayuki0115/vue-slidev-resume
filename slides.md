@@ -22,7 +22,7 @@ transition: slide-left
 mdc: true
 ---
 
-# Frontend Technical Lead 
+# Frontend Team Lead / Sr. Frontend Engineer 
 
 Annie Wu
 
