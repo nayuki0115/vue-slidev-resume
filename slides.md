@@ -37,15 +37,15 @@ Annie Wu
 </div>
 
 <!-- 
-大家好，我是 Annie。
+Hi, I’m Annie.
 
 IC：  
-今天會用大約 5 到 10 分鐘，分享我在前端開發上的經驗，
-包含系統整理、技術實作，以及在多人協作下如何讓開發更穩定。
+Today I’ll take around 5 to 10 minutes to share my experience in frontend development,
+including system improvement, implementation, and how to make development more stable in team collaboration.
 
 Lead：  
-今天會用大約 5 到 10 分鐘，分享我在前端架構、技術決策，
-以及如何透過工程方式提升團隊產出的經驗。
+Today I’ll take around 5 to 10 minutes to share my experience in frontend architecture,
+technical decision-making, and how to improve team productivity through engineering practices.
  -->
 
 ---
@@ -53,19 +53,19 @@ transition: fade-out
 layout: two-cols
 layoutClass: gap-16
 ---
-# 關於我
+# About Me
 - Sr. Frontend Engineer / Frontend Team Lead / Frontend Architect 
-- 8 年前端經驗
-- 擅長：
-  - 前端系統可維護性與結構優化
-  - 開發流程與協作一致性建立
-  - 與 PM / Backend 跨角色協作
+- 8+ years of experience
+- Focus on:
+  - Maintainable frontend systems and structure optimization
+  - Development workflow and team consistency
+  - Cross-functional collaboration with PMs and backend engineers
 
 
 ::right::
 <br />
 
-## Frontend Tech Stack  前端技能
+## Frontend Tech Stack
 - Frontend Frameworks
 <section>
   <p>
@@ -115,71 +115,48 @@ layoutClass: gap-16
 
 
 <!-- 
+I’m a frontend engineer with around 8 years of experience.
+
 IC：  
-我是一名前端工程師，大約有 8 年經驗。
+I mainly work in complex or evolving systems,
+where I focus on building stable and maintainable frontend applications.
 
-過去的工作主要是在複雜或持續演進的系統中，
-負責前端開發與維護。
-
-除了功能開發之外，我也會關注程式結構與開發流程，
-希望讓系統在多人協作下可以更穩定、可維護。
+Besides implementation, I also pay attention to code structure and development workflow,
+so that teams can collaborate more efficiently.
 
 Lead：  
-我目前的角色比較偏向在系統與工程面做技術判斷與架構調整。
+In my recent role, besides development,
+I also contribute to technical decisions and architecture adjustments.
 
-除了前端開發之外，我也會參與架構調整、
-開發流程建立，以及跨角色的技術溝通。
-
-主要的目標是讓系統在長期演進下，
-仍然能維持穩定與可控。
-
-===================================================
-
-我目前的角色比較不像單純寫前端，而是負責讓前端系統與團隊可以長期穩定運作。  
-
-這幾年我的工作重心，主要放在三件事：  
-第一，穩定交付，逐步推進舊系統的版本升級；  
-第二，讓多人協作時，前端的產出能夠變得一致、可預期，而不是各寫各的；  
-第三，則是把技術選擇轉成利害關係人能理解的決策依據，而不只是工程師內部的討論。  
-
-所以今天的分享，我會比較著重在我怎麼做技術判斷、怎麼帶團隊與對齊角色，  
-而不是單一技術細節的介紹。  
+I work on improving system structure, development workflow,
+and aligning with different stakeholders to ensure long-term maintainability.  
 -->
 
 ---
 transition: fade-out
 ---
 # Career Foundation
-## 藍星球資訊（2017–2024）
+## BluePlanet (2017–2024)
 
 - Frontend Engineer → Senior → Team Lead
-- 技術轉型經驗：
+- Technical transformation:
   - `jQuery` / `Blade` → `Vue 2` / `Nuxt` / `TypeScript`
-- 專案類型：
-  - 政府系統、後台管理系統、Dashboard
-- 累積能力：
-  - 技術轉型與系統演進
-  - 與 PM / 後端長期協作
-  - 任務拆解與新人指導
+- Projects:
+  - Government systems, admin systems, dashboards
+- Experience:
+  - System evolution and technical transformation
+  - Long-term collaboration with PMs and backend engineers
+  - Task breakdown and onboarding
 
 
 <!-- 
-在加入統智科技之前，我在藍星球資訊工作了七年。
+Before joining my current company, I worked at BluePlanet for seven years.
 
-這段期間我從前端工程師成長到 Senior，
-也經歷了從傳統開發方式轉型到 Vue 與 TypeScript 的過程。
+During this time, I grew from a frontend engineer to a senior role,
+and experienced a full transformation from traditional development to Vue and TypeScript.
 
-在這個過程中，我累積了在技術轉型、多人協作，
-以及與 PM、後端長期合作的經驗。
-
-====================
-
-這個階段讓我學到的，不只是技術，  
-而是如何在資源有限、需求變動頻繁的情況下，  
-把系統穩定交付，並開始帶人、拆任務、與 PM 與後端密切合作。  
-
-這些經驗，讓我後來在統智科技能更快進入架構與 Lead 的角色。
-
+Through this process, I gained experience in technical transformation,
+team collaboration, and working closely with PMs and backend engineers.
  -->
 ---
 transition: fade-out
@@ -187,57 +164,67 @@ layout: two-cols
 layoutClass: gap-16
 ---
 
-# 前端架構／技術決策
+# Architecture / Technical Decisions
 
-## 背景
-> - 30年前系統重構  
-> - 系統技術版本混雜
->   - Node 16 / 18
->   - Vue 2（Options API）
-> - i18n 結構混亂
-> - Repo 與資料夾結構缺乏一致性
+## Background
+> - Legacy system with mixed technologies
+> - Multiple Node and Vue versions
+> - i18n structure was inconsistent
+> - Project structure lacked standardization
+
 
 <br />
 
-## 我的角色
-> - 主導或參與前端架構與技術決策
->   - 技術選型與升級路線規劃
->   - 架構設計與 Code Review
-> - 與團隊合作推動前端實務改善（3 位工程師）
+## My Role
+> - Led or contributed to frontend architecture and technical decisions
+>   - Technology selection and upgrade planning
+>   - Architecture design and code review
+> - Collaborated with a team of 3 engineers
 
 ::right::
 <br />
 
-## 關鍵決策與做法
-> - 推動技術升級與開發流程優化：
->   - Vue 2 → Vue 3 升級與組件重構，導入 Typescript 開發    
->   - 統一 Node 與專案結構
->   - 建立 Monorepo 架構  
->   - 重構 i18n 模組，統一 JSON 架構與命名規則
-> - 建立前端技術 Wiki
+## Key Actions
+> - Vue 2 → Vue 3 migration with TypeScript
+> - Unified Node and project structure
+> - Introduced monorepo
+> - Refactored i18n structure
+> - Built frontend wiki
 
 <br />
 <img src="/frontend-wiki.jpg" class="h-63 shadow" />
 
-<!-- 第一個我想分享的是 在統智科技負責的前端重構專案 
-背景：   
-30年前系統重構，新的要使用 vue， 
-整體系統算下來有 108 個子系統，  
-我到職時已經有2個 子系統  
-  
-這個專案一開始最大的問題，其實不是功能不足，
-而是系統結構與技術版本混亂，導致維護成本不可預期。
+<!-- 
+IC:  
+In this project, the biggest issue was not functionality,
+but inconsistent system structure and technology versions.
 
-所以我當時優先判斷要先解決的是「一致性」與「可維護性」的問題。
+So I focused on improving consistency and maintainability.
 
-我在這個過程中，參與前端架構的調整，
-並在一些關鍵地方做技術方向的判斷。
+I was involved in frontend architecture adjustments,
+and contributed to technical decisions in key areas.
 
-例如先統一 Node 與專案結構，
-再逐步導入 Vue 3，
-同時重構 i18n 的資料結構，
-讓系統在後續開發上可以更一致、可維護。
+For example, we unified the project structure,
+migrated from Vue 2 to Vue 3,
+and refactored the i18n structure.
 
+These changes helped make the system more stable and easier to maintain.
+
+
+Lead:  
+At the beginning, I identified that the main risk was not missing features,
+but the inconsistency in system structure and technology.
+
+So I prioritized improving maintainability and consistency.
+
+I contributed to architecture decisions,
+including upgrade strategy and system structure alignment.
+
+For example, we unified Node versions,
+introduced Vue 3 step by step,
+and redesigned the i18n structure.
+
+This helped the system evolve in a more controlled and predictable way.
 -->
 
 ---
@@ -245,46 +232,40 @@ transition: fade-out
 layout: two-cols
 layoutClass: gap-16
 ---
-# 開發流程優化與協作改善
+# Development Workflow & Collaboration Improvement
 
-## 背景
-> - Commit 與 Branch 規則不一致
-> - Code Style 各自為政，維護成本高
+## Background
+> - Inconsistent commit and branch practices
+> - Code style differences increased maintenance cost
 
 <br />
 
-## 我做的事
-> - 建立：
+## What I Did
+> - Introduced:
 >   - Conventional Commits
->   - Branch 命名規範
-> - Coding Style 建立與落實：
+>   - Branch naming conventions
+> - Improved coding standards:
 >   - ESLint / Prettier
->   - 專案規範檔案建置
->   - 制定團隊統一規則  
-> - 撰寫專案規範文件  
-> - Code Review 中實際落實
-> - 建立 Onboarding Guide
+> - Wrote documentation
+> - Applied standards through code reviews
+> - Built onboarding guide
 
 ::right::
 <img src="/knowledge.jpg" class="h-63 shadow" />
 <img src="/onboarding_guide.png" class="h-63 shadow" />
 
 <!-- 
-第二個我想補充的是 團隊流程、規範建立  
+In team collaboration, I noticed that inconsistent practices
+can increase communication cost and slow down development.
 
-我推動這些流程與規範的目的，  
-並不是為了單純讓程式碼看起來比較漂亮，  
-而是因為在多人協作、多專案的情況下，  
-溝通成本往往比寫 code 本身還要高。  
+So I helped improve the development workflow.
 
-當規範不一致時，最先受影響的通常是團隊與專案的節奏，  
-這也包含新進人員，    
-專案節奏也會變得不穩定。  
+For example, we introduced ESLint and Prettier,
+and defined commit and branch conventions.
 
-所以我把這些規範當成一種『對齊工具』，  
-讓不同資歷、不同角色的人，  
-都能在同一個基準上協作，  
-進而讓整體產能變得可預期。  
+I also used code reviews to ensure these standards were applied in practice.
+
+The goal was to make development more consistent and predictable.
  -->
 
 
@@ -292,22 +273,22 @@ layoutClass: gap-16
 transition: fade-out
 ---
 
-# 為何尋找下一個機會？
-- 希望在產品生命週期較長的環境中，持續累積 Domain Know-How 與前端技術深度  
-- 期待在相對成熟的流程與團隊配置下，發揮前端在系統穩定性與可維護性上的影響力  
-- 希望更深入投入前端架構層面的設計與決策，長期優化系統的可維護性與可擴充性  
+# Why I'm Looking for a New Opportunity
+- Looking to work in a long-term product environment
+- Want to deepen domain knowledge and technical expertise
+- Interested in contributing to system stability and maintainability
+- Hope to be involved in long-term system evolution and architecture decisions
 
 
 <!-- 
-我這次轉職，主要是希望能在產品生命週期較長的環境中，
-持續累積 domain knowledge 與技術深度。
+I’m looking for an opportunity in a product-driven environment
+where I can continue building domain knowledge and technical depth.
 
-同時也希望在這樣的環境中，
-能夠長期參與系統的演進過程，
-不只是完成短期需求，而是持續優化系統的穩定性與可維護性。
+I want to be involved in long-term system evolution,
+not just short-term feature delivery.
 
-因此我在找的機會，是可以讓我保持 hands-on，
-同時在系統與工程面產生長期影響的角色。
+At the same time, I want to stay hands-on,
+while contributing to system stability and maintainability.
  -->
 
 ---
