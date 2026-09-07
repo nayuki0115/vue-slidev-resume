@@ -1,33 +1,18 @@
 ---
-# You can also start simply with 'default'
 theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
-# some information about your slides (markdown enabled)
-title: Annie's Resume
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
-# apply unocss classes to the current slide
-class: text-center
-# https://sli.dev/features/drawing
-drawings:
-  persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
-transition: slide-left
-# enable MDC Syntax: https://sli.dev/features/mdc
-mdc: true
 ---
 
-# Sr. Frontend Engineer / Frontend Team Lead 
+# Frontend Engineer
 
 Annie Wu
 
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
+<div class="mt-8 text-xl">
+  Vue · Nuxt · TypeScript
+</div>
+
+<div class="mt-8 opacity-80">
+  8+ Years Experience · Technical Leadership · Team Management
 </div>
 
 <div class="abs-br m-6 text-xl">
@@ -36,286 +21,333 @@ Annie Wu
   </a>
 </div>
 
-<!-- 
+<!--
 大家好，我是 Annie。
 
-IC：  
-今天會用大約 5 到 10 分鐘，分享我在前端開發上的經驗，
-包含系統整理、技術實作，以及在多人協作下如何讓開發更穩定。
+我是一名前端工程師，有 8 年以上的 Web 前端開發經驗，主要使用 Vue、Nuxt 和 TypeScript。
 
-Lead：  
-今天會用大約 5 到 10 分鐘，分享我在前端架構、技術決策，
-以及如何透過工程方式提升團隊產出的經驗。
- -->
+隨著工作經驗的累積，我負責的範圍也逐步從前端開發，延伸到架構設計、技術決策以及團隊帶領。
+
+接下來我會簡單介紹一下我的工作經歷，以及這幾年累積的一些經驗。
+-->
 
 ---
 transition: fade-out
-layout: two-cols
-layoutClass: gap-16
 ---
+
 # 關於我
-- Sr. Frontend Engineer / Frontend Team Lead / Frontend Architect 
-- 8 年前端經驗
-- 擅長：
-  - 前端系統可維護性與結構優化
-  - 開發流程與協作一致性建立
-  - 與 PM / Backend 跨角色協作
+
+<div class="grid grid-cols-2 gap-12 mt-8 w-full">
+  <div>
+
+## Frontend Development
+
+<div class="mt-6">
+
+- 8+ Years Web Frontend Experience
+- Vue / Nuxt / TypeScript
+- Frontend Architecture
+- Engineering Practices
+
+</div>
+
+  </div>
+
+  <div>
+
+## Beyond Development
+
+<div class="mt-6">
+
+- Technical Leadership
+- Team Management
+- Code Review
+- Mentoring & Knowledge Sharing
+
+</div>
+
+  </div>
+</div>
+
+<!--
+我有 8 年以上的 Web 前端開發經驗，主要技術是 Vue、Nuxt 和 TypeScript。
+
+隨著工作經驗累積，我負責的範圍也逐步從功能開發，延伸到前端架構、Engineering Practices，以及技術決策。
+
+另外，過去我也有擔任前端組主任和 Frontend Leader 的經驗，所以除了技術面之外，也有團隊帶領、人員管理、Code Review、Mentoring 和知識分享的經驗。
+
+對我來說，前端工程不只是把功能完成，也包含怎麼讓系統更容易維護、團隊更容易協作，以及讓技術經驗可以持續累積和傳承。
+
+接下來我會用兩段主要的工作經歷，簡單介紹這些經驗是怎麼累積起來的。
+-->
 
 
-::right::
-<br />
+---
+transition: fade-out
+---
 
-## Frontend Tech Stack  前端技能
-- Frontend Frameworks
-<section>
-  <p>
-    <span class="tags">
-      <img src="https://www.vectorlogo.zone/logos/vuejs/vuejs-ar21.svg" alt="vue" />
-    </span>
-    <span class="tags">
-      <img src="https://www.vectorlogo.zone/logos/nuxtjs/nuxtjs-ar21.svg" alt="nuxt" />
-    </span>
-    <span class="tags">
-      <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt="react" />
-    </span>
-  </p>
-</section>
+# 職涯成長
 
-- Languages
-<section>
-  <p>
-    <span class="tags">
-      <img src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg" alt="js" />
-    </span>
-    <span class="tags">
-      <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg" alt="ts" />
-    </span>
-    <span class="tags">
-      <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="html" />
-    </span>
-    <span class="tags">
-      <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg" alt="css" />
-    </span>
-  </p>
-</section>
+<div class="text-xl opacity-70 mt-2">
+  藍星球資訊 · 2017 — 2024
+</div>
 
-<style>
-  section {
-    line-height: 1.75;
+<div class="flex items-center justify-center gap-6 text-xl mt-10">
+  <strong>前端工程師</strong>
 
-    .tags {
-      display: inline-block;
-      padding: 5.01px 8.35px;
-      margin-bottom: 6.68px;
-      line-height: 30px;
-      margin: 0 0 0 0.5rem;
-    }
-  }
-</style>
+  <span class="opacity-50">→</span>
 
+  <strong>高級前端工程師</strong>
 
-<!-- 
-IC：  
-我是一名前端工程師，大約有 8 年經驗。
+  <span class="opacity-50">→</span>
 
-過去的工作主要是在複雜或持續演進的系統中，
-負責前端開發與維護。
+  <strong>主任（前端組）</strong>
+</div>
 
-除了功能開發之外，我也會關注程式結構與開發流程，
-希望讓系統在多人協作下可以更穩定、可維護。
+<div class="grid grid-cols-3 gap-10 mt-14">
+  <div>
+    <h2>Frontend Development</h2>
+    <div class="mt-5">
+      Vue / Nuxt<br>
+      專案開發與技術累積
+    </div>
+  </div>
 
-Lead：  
-我目前的角色比較偏向在系統與工程面做技術判斷與架構調整。
+  <div>
+    <h2>RD Leader</h2>
+    <div class="mt-5">
+      專案協調<br>
+      議題分配 · 跨部門溝通
+    </div>
+  </div>
 
-除了前端開發之外，我也會參與架構調整、
-開發流程建立，以及跨角色的技術溝通。
+  <div>
+    <h2>Team Leadership</h2>
+    <div class="mt-5">
+      帶領 4 名前端工程師<br>
+      人員培育 · 團隊管理
+    </div>
+  </div>
+</div>
 
-主要的目標是讓系統在長期演進下，
-仍然能維持穩定與可控。
+<!--
+我的第一段主要工作經歷是在藍星球資訊，大約有 7 年的時間。
 
-===================================================
+我一開始是以前端工程師加入，後來升任高級前端工程師，最後擔任前端組主任。
 
-我目前的角色比較不像單純寫前端，而是負責讓前端系統與團隊可以長期穩定運作。  
+這段經歷對我來說，除了前端技術上的累積之外，比較大的變化是負責的範圍逐漸擴大。
 
-這幾年我的工作重心，主要放在三件事：  
-第一，穩定交付，逐步推進舊系統的版本升級；  
-第二，讓多人協作時，前端的產出能夠變得一致、可預期，而不是各寫各的；  
-第三，則是把技術選擇轉成利害關係人能理解的決策依據，而不只是工程師內部的討論。  
+在專案上，我後來多次擔任 RD Leader。RD Leader 主要是作為 RD 端的協調窗口，負責和 PM 溝通需求、進行議題分配，以及協調開發進度。
 
-所以今天的分享，我會比較著重在我怎麼做技術判斷、怎麼帶團隊與對齊角色，  
-而不是單一技術細節的介紹。  
+擔任主任之後，我帶領 4 名前端工程師，除了專案開發之外，也開始負責人力與任務安排、Code Review、新人培育以及績效管理。
+
+所以在藍星球這段期間，我的角色從前端開發，逐步延伸到專案協作，以及後來的團隊帶領與人員管理。
 -->
 
 ---
 transition: fade-out
 ---
-# Career Foundation
-## 藍星球資訊（2017–2024）
 
-- Frontend Engineer → Senior → Team Lead
-- 技術轉型經驗：
-  - `jQuery` / `Blade` → `Vue 2` / `Nuxt` / `TypeScript`
-- 專案類型：
-  - 政府系統、後台管理系統、Dashboard
-- 累積能力：
-  - 技術轉型與系統演進
-  - 與 PM / 後端長期協作
-  - 任務拆解與新人指導
+# 前端工程改善
 
+<div class="text-xl opacity-70 mt-2">
+  統智科技 · Senior Frontend Engineer / Frontend Leader
+</div>
 
-<!-- 
-在加入統智科技之前，我在藍星球資訊工作了七年。
+<div class="grid grid-cols-3 gap-10 mt-12">
+  <div>
+    <h2>前端架構</h2>
+    <div class="mt-5">
+      Vue 2 → Vue 3 Migration<br>
+      Monorepo 規劃<br>
+      i18n 架構重整
+    </div>
+  </div>
 
-這段期間我從前端工程師成長到 Senior，
-也經歷了從傳統開發方式轉型到 Vue 與 TypeScript 的過程。
+  <div>
+    <h2>工程實務</h2>
+    <div class="mt-5">
+      開發規範建立<br>
+      Code Review<br>
+      程式碼品質
+    </div>
+  </div>
 
-在這個過程中，我累積了在技術轉型、多人協作，
-以及與 PM、後端長期合作的經驗。
+  <div>
+    <h2>團隊知識傳承</h2>
+    <div class="mt-5">
+      Onboarding Guide<br>
+      Frontend Wiki<br>
+      Knowledge Sharing
+    </div>
+  </div>
+</div>
 
-====================
+<div class="mt-14 text-lg opacity-80 text-center">
+  Architecture · Engineering Quality · Team Collaboration
+</div>
 
-這個階段讓我學到的，不只是技術，  
-而是如何在資源有限、需求變動頻繁的情況下，  
-把系統穩定交付，並開始帶人、拆任務、與 PM 與後端密切合作。  
+<!--
+後來我加入統智科技，擔任 Senior Frontend Engineer 和 Frontend Leader，並帶領 3 名前端工程師。
 
-這些經驗，讓我後來在統智科技能更快進入架構與 Lead 的角色。
+這段工作的重點，比較集中在前端架構、Engineering Practices，以及團隊開發方式的改善。
 
- -->
----
-transition: fade-out
-layout: two-cols
-layoutClass: gap-16
----
+在架構方面，我主導 Vue 2 到 Vue 3 的 Migration，也進行 Monorepo 的規劃，以及既有 i18n 架構的重整。
 
-# 前端架構／技術決策
+除了架構之外，我也從零開始建立一些前端團隊共同的開發規範，例如 Conventional Commits、Branch Naming、ESLint、Prettier，以及專案結構的規範，並透過 Code Review 維持程式碼品質。
 
-## 背景
-> - 30年前系統重構  
-> - 系統技術版本混雜
->   - Node 16 / 18
->   - Vue 2（Options API）
-> - i18n 結構混亂
-> - Repo 與資料夾結構缺乏一致性
+另外在團隊知識傳承方面，我建立了 Onboarding Guide 和 Frontend Wiki，讓新人加入或團隊成員遇到開發問題時，可以有比較一致的資訊可以參考。
 
-<br />
-
-## 我的角色
-> - 主導或參與前端架構與技術決策
->   - 技術選型與升級路線規劃
->   - 架構設計與 Code Review
-> - 與團隊合作推動前端實務改善（3 位工程師）
-
-::right::
-<br />
-
-## 關鍵決策與做法
-> - 推動技術升級與開發流程優化：
->   - Vue 2 → Vue 3 升級與組件重構，導入 Typescript 開發    
->   - 統一 Node 與專案結構
->   - 建立 Monorepo 架構  
->   - 重構 i18n 模組，統一 JSON 架構與命名規則
-> - 建立前端技術 Wiki
-
-<br />
-<img src="/frontend-wiki.jpg" class="h-63 shadow" />
-
-<!-- 第一個我想分享的是 在統智科技負責的前端重構專案 
-背景：   
-30年前系統重構，新的要使用 vue， 
-整體系統算下來有 108 個子系統，  
-我到職時已經有2個 子系統  
-  
-這個專案一開始最大的問題，其實不是功能不足，
-而是系統結構與技術版本混亂，導致維護成本不可預期。
-
-所以我當時優先判斷要先解決的是「一致性」與「可維護性」的問題。
-
-我在這個過程中，參與前端架構的調整，
-並在一些關鍵地方做技術方向的判斷。
-
-例如先統一 Node 與專案結構，
-再逐步導入 Vue 3，
-同時重構 i18n 的資料結構，
-讓系統在後續開發上可以更一致、可維護。
-
+所以這段經歷對我來說，是把前一份工作累積的開發、協作和帶領經驗，進一步運用在前端架構、工程品質，以及團隊開發方式上。
 -->
 
 ---
 transition: fade-out
-layout: two-cols
-layoutClass: gap-16
 ---
-# 開發流程優化與協作改善
 
-## 背景
-> - Commit 與 Branch 規則不一致
-> - Code Style 各自為政，維護成本高
+# 近期學習與實作
 
-<br />
+<div class="grid grid-cols-2 gap-14 mt-8">
+  <div>
+    <h2>React Ecosystem</h2>
+    <div class="mt-4">
+      React 19 · TypeScript · Vite<br>
+      透過個人專案累積實作經驗
+    </div>
+  </div>
 
-## 我做的事
-> - 建立：
->   - Conventional Commits
->   - Branch 命名規範
-> - Coding Style 建立與落實：
->   - ESLint / Prettier
->   - 專案規範檔案建置
->   - 制定團隊統一規則  
-> - 撰寫專案規範文件  
-> - Code Review 中實際落實
-> - 建立 Onboarding Guide
+  <div>
+    <h2>AI-assisted Development</h2>
+    <div class="mt-4">
+      Codex CLI · Context Management<br>
+      Engineering Workflow · Trade-offs
+    </div>
+  </div>
+</div>
 
-::right::
-<img src="/knowledge.jpg" class="h-63 shadow" />
-<img src="/onboarding_guide.png" class="h-63 shadow" />
+<div class="mt-10">
+  <div class="text-lg opacity-70 mb-4">
+    Recent Projects
+  </div>
 
-<!-- 
-第二個我想補充的是 團隊流程、規範建立  
+  <div class="grid grid-cols-2 gap-8">
+    <div>
+      <img
+        src="/projects/message-template-editor.png"
+        alt="Vue 3 Message Template Editor"
+        class="w-full h-32 object-cover rounded-lg"
+      >
+      <div class="mt-3">
+        <strong>Vue 3 Message Template Editor</strong>
+        <div class="mt-1 opacity-70">
+          Vue 3 · TypeScript · Vitest
+        </div>
+      </div>
+    </div>
+    <div>
+      <img
+        src="/projects/lunar-ritual-helper.png"
+        alt="Lunar Ritual Helper"
+        class="w-full h-32 object-cover rounded-lg"
+      >
+      <div class="mt-3">
+        <strong>Lunar Ritual Helper</strong>
+        <div class="mt-1 opacity-70">
+          React 19 · TypeScript · Vitest
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-我推動這些流程與規範的目的，  
-並不是為了單純讓程式碼看起來比較漂亮，  
-而是因為在多人協作、多專案的情況下，  
-溝通成本往往比寫 code 本身還要高。  
+<!--
+除了過去工作上主要使用的 Vue、Nuxt 和 TypeScript 之外，我近期也持續拓展自己的技術範圍。
 
-當規範不一致時，最先受影響的通常是團隊與專案的節奏，  
-這也包含新進人員，    
-專案節奏也會變得不穩定。  
+其中一個方向是 React。我透過個人專案實際使用 React 19、TypeScript 和 Vite，除了熟悉 React 的開發方式，也會比較它和過去 Vue 開發經驗在元件設計、狀態管理以及開發思維上的差異。
 
-所以我把這些規範當成一種『對齊工具』，  
-讓不同資歷、不同角色的人，  
-都能在同一個基準上協作，  
-進而讓整體產能變得可預期。  
- -->
+另外一個近期投入比較多的方向是 AI-assisted Development。
+
+我目前主要使用 Codex CLI，研究怎麼把 AI 放進實際的 Engineering Workflow，包含 Repository 分析、需求理解、Task Breakdown、Implementation、Code Review、Testing 和文件整理。
+
+我比較關注的不是單純讓 AI 幫我產生 Code，而是怎麼提供適當的 Context、拆解問題，以及判斷 AI 產出的結果是否符合需求和工程品質。
+
+最近的實作包含 Vue 3 Message Template Editor，以及使用 React 19 開發的 Lunar Ritual Helper。
+
+其中 Message Template Editor 我也有另外整理一份 Engineering Workflow 和 AI Trade-off 的技術文件，記錄實作過程中的工程決策。
+-->
 
 
 ---
 transition: fade-out
 ---
 
-# 為何尋找下一個機會？
-- 希望在產品生命週期較長的環境中，持續累積 Domain Know-How 與前端技術深度  
-- 期待在相對成熟的流程與團隊配置下，發揮前端在系統穩定性與可維護性上的影響力  
-- 希望更深入投入前端架構層面的設計與決策，長期優化系統的可維護性與可擴充性  
+# 下一步
 
+<div class="mt-10">
+  <div class="grid grid-cols-2 gap-x-16 gap-y-10">
+    <div>
+      <h2>長期產品發展</h2>
+      <div class="mt-3">
+        參與產品長期演進<br>
+        持續累積技術與產品價值
+      </div>
+    </div>
+    <div>
+      <h2>工程品質</h2>
+      <div class="mt-3">
+        Readability · Maintainability<br>
+        Engineering Trade-offs
+      </div>
+    </div>
+    <div>
+      <h2>技術影響力</h2>
+      <div class="mt-3">
+        Architecture · Technical Decisions<br>
+        Engineering Practices
+      </div>
+    </div>
+    <div>
+      <h2>團隊成長</h2>
+      <div class="mt-3">
+        Mentoring · Code Review<br>
+        Knowledge Sharing
+      </div>
+    </div>
+  </div>
+</div>
 
-<!-- 
-我這次轉職，主要是希望能在產品生命週期較長的環境中，
-持續累積 domain knowledge 與技術深度。
+<div class="mt-14 text-center text-lg opacity-75">
+  Senior Frontend Engineer · Frontend Team Lead
+</div>
 
-同時也希望在這樣的環境中，
-能夠長期參與系統的演進過程，
-不只是完成短期需求，而是持續優化系統的穩定性與可維護性。
+<!--
+綜合前面的工作經驗，下一個階段我希望可以持續參與比較長期的產品發展。
 
-因此我在找的機會，是可以讓我保持 hands-on，
-同時在系統與工程面產生長期影響的角色。
- -->
+對我來說，除了完成當下的需求之外，我也很重視產品在持續演進的過程中，前端架構、可維護性以及工程品質能不能一起累積。
 
+在角色上，我沒有把自己限制在單一職稱。
+
+如果是 Senior Frontend Engineer，我希望可以在架構設計、技術決策以及 Engineering Practices 上發揮更多影響力。
+
+如果角色包含 Team Leadership，我也很願意延續過去在團隊帶領、Mentoring、Code Review 和 Knowledge Sharing 上的經驗。
+
+所以我下一階段比較希望找到的是，可以持續累積產品與技術價值，同時也重視工程品質和團隊成長的環境。
+-->
 ---
 layout: center
 class: text-center
+transition: fade-out
 ---
 
-# Thank You !
+# Thank You
+
+<div class="mt-6 text-2xl">
+  Annie Wu
+</div>
 
 [Web](https://nayuki0115.github.io/) · [GitHub](https://github.com/nayuki0115) · [Cake](https://www.cake.me/nayuki0115) · [Linkedin](https://tw.linkedin.com/in/nayuki0115)
+
+<div class="mt-10 text-xl opacity-80">
+  Q&A
+</div>
 
